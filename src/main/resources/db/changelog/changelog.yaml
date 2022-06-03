@@ -1,0 +1,37 @@
+databaseChangeLog:
+  - changeSet:
+      id: create_car_table
+      author: Sergei
+      changes:
+        - sqlFile: create_car_table.sql
+          relativeToChangelogFile: true
+  - changeSet:
+      id: create_client_table
+      author: Sergei
+      changes:
+        - sqlFile: create_client_table.sql
+          relativeToChangelogFile: true
+  - changeSet:
+      id: create_order_table
+      author: Sergei
+      changes:
+        - sqlFile: create_order_table.sql
+          relativeToChangelogFile: true
+  - changeSet:
+      id: fill_car_table
+      author: Sergei
+      changes:
+        - sqlFile: fill_car_table.sql
+          relativeToChangelogFile: true
+  - changeSet:
+      id: fill_client_table
+      author: Sergei
+      changes:
+        - sqlFile: fill_client_table.sql
+          relativeToChangelogFile: true
+  - changeSet:
+      id: fill_order_table
+      author: Sergei
+      changes:
+        - sqlFile: fill_order_table.sql
+          relativeToChangelogFile: true
