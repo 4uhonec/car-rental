@@ -1,5 +1,5 @@
 ## Car rental
-#####backend part of Spring application for car rental
+##### backend part of Spring application for car rental
 built for learning purposes
 
 was using PostgreSQL database, SQL scripts to fill DB are [here](src/main/resources/db/changelog)
